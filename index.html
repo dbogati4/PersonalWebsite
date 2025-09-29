@@ -1,104 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dipika Bogati</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipika Bogati - Portfolio</title>
+
+   <!-- ✅ SEO Meta Tags -->
+  <meta name="description" content="Dipika Bogati - Data Engineer, Software Engineer, and Developer based in Ohio, United States. Skilled in AWS, Python, SQL, Cloud Computing, and Big Data Engineering. Open to opportunities in USA.">
+  <meta name="keywords" content="Dipika Bogati, Data Engineer, Software Engineer, Developer, AWS Engineer, Python Developer, SQL, Cloud Engineer, Big Data Engineer, ETL, Full Stack Developer, Ohio, United States, USA, US, United States of America, Recruiter, Hiring, Portfolio, Resume, GitHub, LinkedIn">
+  <meta name="author" content="Dipika Bogati">
+
+   <!-- ✅ Open Graph for LinkedIn/FB -->
+  <meta property="og:title" content="Dipika Bogati - Data Engineer Portfolio">
+  <meta property="og:description" content="Data Engineer | AWS | Python | SQL | Cloud Computing | Based in Ohio, United States.">
+  <meta property="og:image" content="images/profilePicture.jpg">
+  <meta property="og:url" content="https://yourdomain.np">
+  <meta property="og:type" content="website">
+
+  <!-- ✅ Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dipika Bogati - Data Engineer Portfolio">
+  <meta name="twitter:description" content="Data Engineer | AWS | Python | SQL | Cloud Computing | Based in Ohio, United States.">
+  <meta name="twitter:image" content="images/profilePicture.jpg">
+
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-    <h1>DIPIKA BOGATI</h1>
-    <img src="images/profilePicture.jpg">
-    <p>Experienced Data Engineer with more than 3+ years experience in SQL, Python and AWS services. Worked with
-micro-services to setup data pipeline (including Ingestion, Transformation and Load) in AWS using Python,
-Databases, AWS Lambda and AWS Batch. Effective communication both oral and written skills and demonstrated
-the professional collaborative work for 3+ years in IT industry while working with US-based projects.</p>
+  <header>
+    <h1>Dipika Bogati</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications-awards">Certifications/Awards</a>
+      <!-- <a href="#awards">Awards</a> -->
+    </nav>
+  </header>
 
-    <h3>
-        Experiences:
-    </h3>
-    <ol>
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <div class="hero-left">
+      <img src="images/profilePicture.jpg" alt="Dipika Bogati">
+      <h2>Dipika Bogati</h2>
+      <p>Data Engineer | AWS | Python | SQL</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+        <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+      </div>
+    </div>
 
-            <b>
-                Graudate Teaching Assistant
-            </b>, Bowling Green State University Bowling Green, OH, US January 2025 - Present
-            <ul>
-            <li>
-                Developed the learning program in unity which helps student to interact with object while learning statics.
-            </li>
-            <li>
-                Migrated the statics learning program into Meta Quest 3s.
-            </li>
-            <li>
-                Integrated llama2 into the program to fetch some response instantly.
-            </li>
-            </ul>
-            <b>
-                Data Engineer
-            </b>, Verisk Lalitpur, Nepal August 2021 – August 2024
-            <ul>
-            <li>Worked in Verisk’s central Data Hub team, the core group responsible for enterprise-wide ETL services, focusing
-on building scalable data pipelines.</li>
-            <li>Added micro-services in the ETL pipeline where data is extracted from databases (Oracle, Aurora, DynamoDB,
-Snowflake, SQL Server, PostgreSQL), then transformed and loaded into Snowflake warehouse.</li>
-            <li>Integrated several AWS services (s3 bucket, batch, lambda, SNS, SQS, RDS) to automate data pipeline.</li>
-            <li>Implemented mliti-processing to handle big data (Terabytes) and make execution process faster. </li>
-            <li>Wrote unit test cases in Python and increased the SONAR code coverage and decreased the vlinerabilities from
-the Python code.</li>
-            <li>Worked on version control system (git, bitbucket) to maintain code version.</li>
-            <li>Migrated generic data validation service from Pentaho to python which validate the data distributes to mlitiple
-teams.</li>
-            <li>Interviewed and mentored for Data Engineer trainees.</li>
-            </ul>
-            <b>
-                Full Stack Developer
-            </b>, Curllabs Bhaktapur, Nepal August 2020 – October 2020
-            <ul>
-                <li>Designed and created database to store and manage information on popular routes across Nepal.</li>
-                <li>Created web pages using HTML, CSS, Bootstrap and JavaScript.</li>
-                <li>Implemented CRUD operations for admin to manipulate the routes.</li>
-            </ul>
-            </ol>
+    <div class="hero-right">
+      <h2>Hello There!</h2>
+      <p>
+        I’m Dipika Bogati, an experienced Data Engineer with 3+ years of expertise 
+        in SQL, Python, and AWS. Skilled in building scalable data pipelines, 
+        integrating cloud services, and enabling real-time analytics. 
+        I am passionate about solving complex data problems with efficient solutions.
+      </p>
 
-    <h3>
-        Skills:
-    </h3>
-    <b>
-        Data Engineering:
-    </b> Python, SQL, Snowflake, Amazon Web Services (AWS) <br>
-    <b>
-        Programming Languages:
-    </b> Python, Java, Java Script, C# <br>
-    <b>
-        Technologies:
-    </b> Object-oriented Programming, Cloud Computing, Multi-processing, Batch Script <br>
-    <b>
-        Soft Skills:
-    </b> Proactive, enthusiastic, Attention to Detail
+      <p><i class="fas fa-map-marker-alt"></i> Ohio, United States</p>
+
+    </div>
+  </section>
+
+  <section id="experience" class="experience-section">
+  <h2>Experience</h2>
+  <div class="experience-wrapper">
+    <button class="arrow-btn left" id="expPrev">&#10094;</button>
+
+    <div class="experience-track">
+      <div class="exp-card">
+        <h3>Graduate Teaching Assistant</h3>
+        <p><strong>Bowling Green State University</strong><br>Jan 2025 – Present</p>
+        <ul>
+          <li>Developed interactive learning program in Unity.</li>
+          <li>Migrated program into Meta Quest 3.</li>
+          <li>Integrated LLaMA2 for instant responses.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <h3>Data Engineer</h3>
+        <p><strong>Verisk, Nepal</strong><br>Aug 2022 – Aug 2024</p>
+        <ul>
+          <li>Built scalable ETL pipelines across Oracle, Aurora, DynamoDB, Snowflake.</li>
+          <li>Integrated AWS services (S3, Lambda, SQS, RDS, Batch).</li>
+          <li>Optimized big data processing with multiprocessing.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <h3>Associate Data Engineer</h3>
+        <p><strong>Verisk, Nepal</strong><br>Aug 2021 – Jul 2022</p>
+        <ul>
+          <li>Contributed to enterprise data hub projects.</li>
+          <li>Wrote Python unit tests to improve code coverage.</li>
+          <li>Supported Snowflake data warehouse operations.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <h3>Data Engineer Trainee</h3>
+        <p><strong>Verisk, Nepal</strong><br>Jan 2021 – Jul 2021</p>
+        <ul>
+          <li>Learned ETL pipeline basics with Python.</li>
+          <li>Helped migrate Pentaho jobs to Python scripts.</li>
+          <li>Participated in code reviews & team mentoring.</li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <h3>Full Stack Developer</h3>
+        <p><strong>Curllabs, Nepal</strong><br>Aug 2020 – Oct 2020</p>
+        <ul>
+          <li>Designed database for Nepal’s popular routes.</li>
+          <li>Created UI with HTML, CSS, Bootstrap, JavaScript.</li>
+          <li>Implemented CRUD operations for admin panel.</li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="arrow-btn right" id="expNext">&#10095;</button>
+  </div>
+</section>
+
+<section id="education" class="education-section">
+  <h2>Education</h2>
+  <div class="education-grid">
+
+    <div class="edu-card">
+      <div class="edu-header">
+        <img src="images/bgsu-logo.png" alt="BGSU Logo" class="edu-logo">
+        <div class="edu-title">
+          <h3>Master of Science in Computer Science</h3>
+          <p><strong>Bowling Green State University</strong> | Bowling Green, OH</p>
+        </div>
+      </div>
+      <p class="edu-time">2022 – 2025</p>
+      <ul>
+        <li>Specialization: Data Engineering & Cloud Computing</li>
+        <li>Graduate Teaching Assistant</li>
+      </ul>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-header">
+        <img src="images/lmu-logo.svg" alt="London Metropolitan University Logo" class="edu-logo">
+        <div class="edu-title">
+          <h3>Bachelor of Science in Computer Engineering</h3>
+          <p><strong>Islington College, London Metropolitan University</strong> | London, UK</p>
+        </div>
+      </div>
+      <p class="edu-time">2016 – 2020</p>
+      <ul>
+        <li>Graduated with Distinction</li>
+        <li>Projects: Web apps, IoT, and Database systems</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-header">
+        <!-- <img src="images/hadoop-logo.png" alt="Hadoop Project" class="project-logo"> -->
+        <h3>Big Data Analytics Pipeline (Docker + Hadoop)</h3>
+      </div>
+      <p class="project-desc">
+        Designed and deployed an end-to-end big data analytics pipeline within the Hadoop ecosystem 
+        using <strong>Docker containerization</strong>. This architecture ingests, processes, and analyzes 
+        large-scale datasets efficiently, ensuring modularity and scalability.
+      </p>
+      <ul>
+        <li>Data ingestion via Apache NiFi and Kafka</li>
+        <li>Processing with Spark Streaming & MLlib</li>
+        <li>Storage & querying with Hive + HDFS</li>
+        <li>Containerized deployment using Docker</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <!-- <img src="images/aws-logo.png" alt="AWS Project" class="project-logo"> -->
+        <h3>Serverless Big Data Pipeline (AWS Lambda, SNS, SQS)</h3>
+      </div>
+      <p class="project-desc">
+        Built a fully serverless data pipeline on <strong>AWS</strong> capable of handling terabytes of data 
+        per day. Leveraged managed services for cost efficiency, scalability, and fault tolerance.
+      </p>
+      <ul>
+        <li>Ingestion triggered by AWS Lambda functions</li>
+        <li>Message orchestration with SNS & SQS</li>
+        <li>Data processing at scale using Lambda concurrency</li>
+        <li>Designed for near real-time analytics</li>
+      </ul>
+    </div>
+
     
-    <h3>
-        Education
-    </h3>
-    <b>Masters in Computer Science</b>, Bowling Green State University Expected: May 2026 <br>
-    GPA: 4.0<br>
-    <b>Bachelors in Science in Information Technology in Computing</b>, London Metropolitan University December 2020 <br>
-    GPA: 3.86 <br>
 
-    <h3>
-        Certifications and Awards
-    </h3>
-    <ul>Verisk Way To Go</ul> January 2024
-    <ul>AWS Certified Cloud Practitioner</ul>, March 2023
 
-    <h3>
-        Projects
-    </h3>
-    <ul>
-        <li><b>Real-Time Log Processing Pipeline with Kafka, Spark Streaming and Docker: </b>
-        Built a real-time log monitoring system leveraging Apache Kafka for ingestion, Spark Streaming for processing,
-PostgreSQL for storage, and Streamlit for visualization. The project enables instant error detection and analytics
-while being containerized with Docker for seamless deployment.
-        </li>
-    </ul>
-    
+
+  </div>
+</section>
+
+
+<section id="certifications-awards" class="cert-awards-section">
+  <h2>Certifications & Awards</h2>
+  <div class="cert-awards-grid">
+
+    <!-- Certifications -->
+    <div class="certifications-grid">
+      <div class="cert-card">
+        <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" class="cert-logo">
+        <div class="cert-info">
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <p>Amazon Web Services (AWS)<br>Issued Mar 2023 • Expires Sep 2028</p>
+          <a href="https://www.credly.com/earner/earned/badge/52a289c1-2624-40ca-a6f9-aeb5744e1b39" target="_blank" class="cert-link">View Credential</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <img src="images/aws-cloud-quest.png" alt="AWS Cloud Quest: Cloud Practitioner" class="cert-logo">
+        <div class="cert-info">
+          <h3>AWS Cloud Quest: Cloud Practitioner – Training Badge</h3>
+          <p>Amazon Web Services (AWS)<br>Issued Jun 2025</p>
+          <a href="https://www.credly.com/earner/earned/badge/95373a15-8594-43cc-9c2d-ac89ba1b9b7c" target="_blank" class="cert-link">View Credential</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <img src="images/linkedin-logo.jpeg" alt="LinkedIn Learning" class="cert-logo">
+        <div class="cert-info">
+          <h3>Learning Java</h3>
+          <p>LinkedIn Learning<br>Issued Aug 2020</p>
+          <a href="https://www.linkedin.com/learning/certificates/b0e78e21a7c52f7ed087c44ff95e6d9c41d6a9f633f0fb46a01e7306c0d756a6?trk=backfilled_certificate" target="_blank" class="cert-link">View Credential</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Awards -->
+<div class="awards-container">
+  <div class="award-card">
+    <h4>🏆 Hackathon Winner (Aug 2025)</h4>
+    <p>
+      Best Demo/Presentation Award for predicting the 
+      <em>Global Hunger Index</em> in future years and presenting results 
+      in a dynamic website.
+    </p>
+  </div>
+
+  <div class="award-card">
+    <h4>🌟 Verisk “Way to Go” Award (May 2023)</h4>
+    <p>
+      Recognized for consistently going above and beyond assigned tasks, 
+      delivering impactful solutions, and exceeding performance expectations.
+    </p>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+<script>
+  const expTrack = document.querySelector('.experience-track');
+  const expNext = document.getElementById('expNext');
+  const expPrev = document.getElementById('expPrev');
+
+  expNext.addEventListener('click', () => {
+    expTrack.scrollBy({ left: 300, behavior: 'smooth' });
+  });
+
+  expPrev.addEventListener('click', () => {
+    expTrack.scrollBy({ left: -300, behavior: 'smooth' });
+  });
+</script>
+
+
+
 </body>
 </html>
